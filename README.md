@@ -74,7 +74,7 @@ A granularidade foi definida como:
 
 Cada linha representa um atendimento voluntário hospitalar realizado, associado a um voluntário, atividade, data, local e período do dia.
 
-## Tabelas dimensão
+### Tabelas dimensão
 
 Foram criadas as seguintes dimensões:
 
@@ -207,11 +207,11 @@ Período da tarde: maior concentração de atendimentos.
 
 Esses resultados foram utilizados para gerar os gráficos e insights apresentados no projeto.
 
-<<<<<<< HEAD
+
 ## 💡 8. Insights
-=======
+
 💡 Insights
->>>>>>> 9476ba1dd24107dde00fc7da8e52bac66aa31f54
+
 
 A análise permitiu identificar padrões relacionados aos voluntários, hospitais, atividades, períodos e distribuição temporal dos atendimentos.
 
@@ -228,9 +228,9 @@ O período da tarde concentrou a maior quantidade de atendimentos voluntários, 
 
 
 ## 📁 9. Estrutura do projeto no GitHub
-=======
+
 📁 Estrutura do Repositório
->>>>>>> 9476ba1dd24107dde00fc7da8e52bac66aa31f54
+
 
 ```text
 Data-Warehouse-Voluntariado/
@@ -253,13 +253,11 @@ Data-Warehouse-Voluntariado/
 └── dados/
     └── README.md
 
-<<<<<<< HEAD
-## 🎓 10. Conclusão
-=======
-```
->>>>>>> 9476ba1dd24107dde00fc7da8e52bac66aa31f54
 
-🎓 Conclusão & Documentação
+```
+
+
+## 🎓 Conclusão & Documentação
 
 O projeto demonstrou como técnicas de análise de dados e modelagem dimensional no Databricks ajudam na gestão do voluntariado hospitalar, fornecendo visibilidade clara sobre o engajamento e auxiliando no direcionamento de recursos para ações sociais.
 
@@ -269,11 +267,10 @@ Para conferir o detalhamento completo e os slides da apresentação, acesse os a
 
 📊 Apresentação em Slides: apresentação_voluntariado.pptx
 
-
+```text
 💙 Projeto Acadêmico
-
 Curso: Inteligência e Análise de Dados
-
 Disciplina: Arquitetura de Dados
-
 Ano: 2026
+
+```
