@@ -207,21 +207,32 @@ Período da tarde: maior concentração de atendimentos.
 
 Esses resultados foram utilizados para gerar os gráficos e insights apresentados no projeto.
 
+<<<<<<< HEAD
 ## 💡 8. Insights
+=======
+💡 Insights
+>>>>>>> 9476ba1dd24107dde00fc7da8e52bac66aa31f54
 
 A análise permitiu identificar padrões relacionados aos voluntários, hospitais, atividades, períodos e distribuição temporal dos atendimentos.
 
-Entre os principais insights:
+* **Volume Por Unidade:** O Hospital Infantil Sabará apresentou o maior volume de registros, indicando forte atuação das atividades voluntárias nessa unidade.
+* **Engajamento em Ações:** Entretenimento foi a atividade mais realizada, demonstrando maior participação em ações voltadas ao acolhimento e ao bem-estar dos pacientes.
+* **Concentração de Horários:** O período da tarde concentrou a maior quantidade de atendimentos voluntários, enquanto o período noturno apresentou menor participação.
 
-O Hospital Infantil Sabará apresentou o maior volume de registros, indicando forte atuação das atividades voluntárias nessa unidade.
+---
 
+<<<<<<< HEAD
 Entretenimento foi a atividade mais realizada, demonstrando maior participação em ações voltadas ao acolhimento e ao bem-estar dos pacientes.
 
 O período da tarde concentrou a maior quantidade de atendimentos voluntários, enquanto o período noturno apresentou menor participação.
 
 
 ## 📁 9. Estrutura do projeto no GitHub
+=======
+📁 Estrutura do Repositório
+>>>>>>> 9476ba1dd24107dde00fc7da8e52bac66aa31f54
 
+```text
 Data-Warehouse-Voluntariado/
 │
 ├── README.md
@@ -242,21 +253,27 @@ Data-Warehouse-Voluntariado/
 └── dados/
     └── README.md
 
+<<<<<<< HEAD
 ## 🎓 10. Conclusão
+=======
+```
+>>>>>>> 9476ba1dd24107dde00fc7da8e52bac66aa31f54
 
-O projeto demonstrou como técnicas de análise de dados podem auxiliar na gestão do voluntariado hospitalar, permitindo identificar padrões de atendimento, apoiar a tomada de decisões e ampliar o impacto social das ações voluntárias.
+🎓 Conclusão & Documentação
 
-📚 Documentação
+O projeto demonstrou como técnicas de análise de dados e modelagem dimensional no Databricks ajudam na gestão do voluntariado hospitalar, fornecendo visibilidade clara sobre o engajamento e auxiliando no direcionamento de recursos para ações sociais.
 
-📄 Documento escrito:
-Construção_Data_Warehouse_Voluntariado.docx
+Para conferir o detalhamento completo e os slides da apresentação, acesse os arquivos na pasta documentos/:
 
-📊 Apresentação:
-apresentação_voluntariado.pptx
+📄 Documentação do Projeto: Construção_Data_Warehouse_Voluntariado.docx
 
-💙 Projeto acadêmico
+📊 Apresentação em Slides: apresentação_voluntariado.pptx
+
+
+💙 Projeto Acadêmico
 
 Curso: Inteligência e Análise de Dados
+
 Disciplina: Arquitetura de Dados
-Projeto: Construção de Data Warehouse no Databricks
+
 Ano: 2026
