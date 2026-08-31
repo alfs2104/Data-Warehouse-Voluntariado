@@ -194,7 +194,7 @@ distribuição dos atendimentos entre manhã, tarde e noite.
 As consultas permitiram gerar indicadores e insights sobre os atendimentos voluntários.
 
 Entre os resultados apresentados estão:
-
+```text
 Idade média dos voluntários: 44 anos;
 Horas totais de atendimento: aproximadamente 2,35 milhões;
 Média de atendimentos por mês: aproximadamente 343 registros;
@@ -204,7 +204,7 @@ Gênero feminino: 72,45% dos registros analisados;
 Entretenimento: atividade voluntária mais realizada, com 1.171 registros;
 Música Sacra: atividade com menor volume de registros;
 Período da tarde: maior concentração de atendimentos.
-
+``` 
 Esses resultados foram utilizados para gerar os gráficos e insights apresentados no projeto.
 
 
