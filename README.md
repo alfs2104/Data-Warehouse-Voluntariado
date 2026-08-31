@@ -15,7 +15,9 @@ Qual atividade voluntária é mais realizada?
 Qual período do dia possui maior concentração de atendimentos?
 Qual perfil de voluntário participa mais?
 Como os atendimentos se distribuem ao longo dos anos e meses?
-🛠️ Tecnologias e ferramentas
+
+## 🛠️ Tecnologias e ferramentas
+
 Databricks — ambiente utilizado para implementação do Data Warehouse e consultas SQL
 SQL — criação das tabelas e consultas analíticas
 Delta Tables / Delta Lake — armazenamento das tabelas no ambiente Databricks
