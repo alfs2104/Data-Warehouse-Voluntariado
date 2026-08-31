@@ -207,21 +207,19 @@ Período da tarde: maior concentração de atendimentos.
 
 Esses resultados foram utilizados para gerar os gráficos e insights apresentados no projeto.
 
-💡 8. Insights
+💡 Insights
 
 A análise permitiu identificar padrões relacionados aos voluntários, hospitais, atividades, períodos e distribuição temporal dos atendimentos.
 
-Entre os principais insights:
+* **Volume Por Unidade:** O Hospital Infantil Sabará apresentou o maior volume de registros, indicando forte atuação das atividades voluntárias nessa unidade.
+* **Engajamento em Ações:** Entretenimento foi a atividade mais realizada, demonstrando maior participação em ações voltadas ao acolhimento e ao bem-estar dos pacientes.
+* **Concentração de Horários:** O período da tarde concentrou a maior quantidade de atendimentos voluntários, enquanto o período noturno apresentou menor participação.
 
-O Hospital Infantil Sabará apresentou o maior volume de registros, indicando forte atuação das atividades voluntárias nessa unidade.
+---
 
-Entretenimento foi a atividade mais realizada, demonstrando maior participação em ações voltadas ao acolhimento e ao bem-estar dos pacientes.
+📁 Estrutura do Repositório
 
-O período da tarde concentrou a maior quantidade de atendimentos voluntários, enquanto o período noturno apresentou menor participação.
-
-
-📁 9. Estrutura do projeto no GitHub
-
+```text
 Data-Warehouse-Voluntariado/
 │
 ├── README.md
@@ -242,21 +240,17 @@ Data-Warehouse-Voluntariado/
 └── dados/
     └── README.md
 
-🎓 10. Conclusão
+🎓 Conclusão & Documentação
 
-O projeto demonstrou como técnicas de análise de dados podem auxiliar na gestão do voluntariado hospitalar, permitindo identificar padrões de atendimento, apoiar a tomada de decisões e ampliar o impacto social das ações voluntárias.
+O projeto demonstrou como técnicas de análise de dados e modelagem dimensional no Databricks ajudam na gestão do voluntariado hospitalar, fornecendo visibilidade clara sobre o engajamento e auxiliando no direcionamento de recursos para ações sociais.
 
-📚 Documentação
+Para conferir o detalhamento completo e os slides da apresentação, acesse os arquivos na pasta documentos/:
 
-📄 Documento escrito:
-Construção_Data_Warehouse_Voluntariado.docx
+📄 Documentação do Projeto: Construção_Data_Warehouse_Voluntariado.docx
 
-📊 Apresentação:
-apresentação_voluntariado.pptx
+📊 Apresentação em Slides: apresentação_voluntariado.pptx
 
-💙 Projeto acadêmico
-
+💙 Projeto Acadêmico
 Curso: Inteligência e Análise de Dados
 Disciplina: Arquitetura de Dados
-Projeto: Construção de Data Warehouse no Databricks
 Ano: 2026
