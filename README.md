@@ -252,6 +252,7 @@ Para conferir o detalhamento completo e os slides da apresentação, acesse os a
 
 📊 Apresentação em Slides: apresentação_voluntariado.pptx
 
+
 💙 Projeto Acadêmico
 
 Curso: Inteligência e Análise de Dados
