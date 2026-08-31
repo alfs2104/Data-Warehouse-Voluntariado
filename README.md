@@ -1,10 +1,10 @@
-🏥 Data Warehouse de Voluntariado Hospitalar
+# 🏥 Data Warehouse de Voluntariado Hospitalar
 
 Projeto acadêmico desenvolvido na disciplina de Arquitetura de Dados, com o objetivo de aplicar conceitos de Data Warehouse, modelagem dimensional, SQL e análise de dados para analisar atendimentos voluntários realizados em hospitais.
 
 O projeto foi desenvolvido utilizando o Databricks e o modelo dimensional em Esquema Estrela (Star Schema), permitindo organizar os dados e gerar análises sobre voluntários, hospitais, atividades, períodos e atendimentos.
 
-🎯 Objetivo do projeto
+## 🎯 Objetivo do projeto
 
 O projeto surgiu a partir da dificuldade de analisar e acompanhar os atendimentos voluntários hospitalares de forma organizada, integrada e estratégica.
 
@@ -26,7 +26,7 @@ GitHub — documentação e versionamento do projeto
 
 O projeto utilizou o modelo estrela, com uma tabela fato central e dimensões responsáveis por fornecer o contexto das análises.
 
-📊 1. Base de dados
+## 📊 1. Base de dados
 
 A base inicial foi obtida a partir de uma planilha de voluntariado hospitalar referente aos meses de janeiro e fevereiro de 2025.
 
@@ -46,13 +46,13 @@ Para ampliar a capacidade de análise, foram adicionados dados fictícios utiliz
 
 Após a expansão, a base passou a possuir 4.224 registros. Os dados expandidos foram utilizados exclusivamente para fins educacionais e analíticos.
 
-🏗️ 2. Modelagem Dimensional
+## 🏗️ 2. Modelagem Dimensional
 
 Foi utilizado o modelo Star Schema (Esquema Estrela).
 
 Nesse modelo, a tabela fato fica no centro e as tabelas dimensão fornecem informações complementares para as análises.
 
-Tabela fato
+### Tabela fato
 
 fato_atendimento
 
@@ -74,11 +74,11 @@ A granularidade foi definida como:
 
 Cada linha representa um atendimento voluntário hospitalar realizado, associado a um voluntário, atividade, data, local e período do dia.
 
-🧩 3. Tabelas dimensão
+## Tabelas dimensão
 
 Foram criadas as seguintes dimensões:
 
-👤 dim_voluntario
+### 👤 dim_voluntario
 
 Armazena informações sobre os voluntários:
 
@@ -87,19 +87,19 @@ nome_voluntario
 idade
 genero
 
-🎯 dim_atividade
+### 🎯 dim_atividade
 Representa as atividades realizadas:
 
 id_atividade
 nome_atividade
 
-🏥 dim_hospital
+### 🏥 dim_hospital
 Armazena os hospitais:
 
 id_hospital
 nome_hospital
 
-📍 dim_local
+### 📍 dim_local
 Permite análises relacionadas à localização:
 
 id_local
@@ -107,7 +107,7 @@ nome_local
 cidade
 estado
 
-📅 dim_data_atendimento
+### 📅 dim_data_atendimento
 Permite análises temporais:
 
 id_data_atendimento
@@ -118,7 +118,7 @@ dia_semana
 inicio
 fim
 
-🕐 dim_periodo_horario
+### 🕐 dim_periodo_horario
 Permite analisar os atendimentos de acordo com o período do dia:
 
 id_periodo
@@ -128,7 +128,7 @@ hora_fim
 
 A dimensão de período também foi utilizada nas análises para identificar a concentração dos atendimentos ao longo do dia.
 
-🔗 4. Relacionamento entre as tabelas
+## 🔗 4. Relacionamento entre as tabelas
 
 As dimensões são relacionadas à tabela fato por meio de chaves primárias (PK) e chaves estrangeiras (FK).
 
@@ -143,7 +143,7 @@ Exemplos:
 1 data → N atendimentos
 1 período → N atendimentos
 
-🗄️ 5. Implementação no Databricks
+## 🗄️ 5. Implementação no Databricks
 
 A implementação foi realizada no Databricks, seguindo as etapas:
 
@@ -161,7 +161,7 @@ USING DELTA;
 
 O formato Delta foi utilizado como padrão de armazenamento analítico no ambiente Databricks.
 
-🔎 6. Consultas SQL
+## 🔎 6. Consultas SQL
 
 Após a construção do Data Warehouse, foram realizadas consultas SQL para gerar indicadores e responder às perguntas de negócio.
 
@@ -189,7 +189,7 @@ comportamento mensal dos atendimentos.
 🕐 Período
 distribuição dos atendimentos entre manhã, tarde e noite.
 
-📈 7. Principais resultados
+## 📈 7. Principais resultados
 
 As consultas permitiram gerar indicadores e insights sobre os atendimentos voluntários.
 
@@ -207,7 +207,7 @@ Período da tarde: maior concentração de atendimentos.
 
 Esses resultados foram utilizados para gerar os gráficos e insights apresentados no projeto.
 
-💡 8. Insights
+## 💡 8. Insights
 
 A análise permitiu identificar padrões relacionados aos voluntários, hospitais, atividades, períodos e distribuição temporal dos atendimentos.
 
@@ -220,7 +220,7 @@ Entretenimento foi a atividade mais realizada, demonstrando maior participação
 O período da tarde concentrou a maior quantidade de atendimentos voluntários, enquanto o período noturno apresentou menor participação.
 
 
-📁 9. Estrutura do projeto no GitHub
+## 📁 9. Estrutura do projeto no GitHub
 
 Data-Warehouse-Voluntariado/
 │
@@ -242,7 +242,7 @@ Data-Warehouse-Voluntariado/
 └── dados/
     └── README.md
 
-🎓 10. Conclusão
+## 🎓 10. Conclusão
 
 O projeto demonstrou como técnicas de análise de dados podem auxiliar na gestão do voluntariado hospitalar, permitindo identificar padrões de atendimento, apoiar a tomada de decisões e ampliar o impacto social das ações voluntárias.
 
