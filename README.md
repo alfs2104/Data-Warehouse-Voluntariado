@@ -16,7 +16,7 @@ Qual período do dia possui maior concentração de atendimentos?
 Qual perfil de voluntário participa mais?
 Como os atendimentos se distribuem ao longo dos anos e meses?
 
-## 🛠️ Tecnologias e ferramentas
+🛠️ Tecnologias e ferramentas
 
 Databricks — ambiente utilizado para implementação do Data Warehouse e consultas SQL
 SQL — criação das tabelas e consultas analíticas
