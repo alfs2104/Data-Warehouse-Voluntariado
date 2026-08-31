@@ -9,7 +9,7 @@ O projeto foi desenvolvido utilizando o Databricks e o modelo dimensional em Esq
 O projeto surgiu a partir da dificuldade de analisar e acompanhar os atendimentos voluntários hospitalares de forma organizada, integrada e estratégica.
 
 O Data Warehouse foi desenvolvido para responder perguntas como:
-
+```text
 Quais hospitais possuem mais atendimentos?
 Qual atividade voluntária é mais realizada?
 Qual período do dia possui maior concentração de atendimentos?
@@ -23,7 +23,7 @@ Draw.io — criação do Diagrama Entidade-Relacionamento e modelagem dimensiona
 Excel — base inicial dos dados
 Inteligência Artificial — expansão da base para fins educacionais e analíticos
 GitHub — documentação e versionamento do projeto
-
+```
 O projeto utilizou o modelo estrela, com uma tabela fato central e dimensões responsáveis por fornecer o contexto das análises.
 
 ## 📊 1. Base de dados
@@ -31,7 +31,7 @@ O projeto utilizou o modelo estrela, com uma tabela fato central e dimensões re
 A base inicial foi obtida a partir de uma planilha de voluntariado hospitalar referente aos meses de janeiro e fevereiro de 2025.
 
 A planilha original possuía 52 registros reais, contendo informações como:
-
+```text
 nome;
 local;
 unidade;
@@ -41,7 +41,7 @@ data;
 início;
 fim;
 total.
-
+```
 Para ampliar a capacidade de análise, foram adicionados dados fictícios utilizando Inteligência Artificial, mantendo a estrutura da base original.
 
 Após a expansão, a base passou a possuir 4.224 registros. Os dados expandidos foram utilizados exclusivamente para fins educacionais e analíticos.
@@ -59,7 +59,7 @@ fato_atendimento
 Responsável por armazenar os eventos de atendimentos voluntários hospitalares.
 
 Principais campos:
-
+```text
 id_atendimento
 id_voluntario
 id_atividade
@@ -69,7 +69,7 @@ id_local
 id_periodo
 total_horas
 total_pessoas
-
+```
 A granularidade foi definida como:
 
 Cada linha representa um atendimento voluntário hospitalar realizado, associado a um voluntário, atividade, data, local e período do dia.
@@ -81,35 +81,35 @@ Foram criadas as seguintes dimensões:
 ### 👤 dim_voluntario
 
 Armazena informações sobre os voluntários:
-
+```text
 id_voluntario
 nome_voluntario
 idade
 genero
-
+```
 ### 🎯 dim_atividade
 Representa as atividades realizadas:
-
+```text
 id_atividade
 nome_atividade
-
+```
 ### 🏥 dim_hospital
 Armazena os hospitais:
-
+```text
 id_hospital
 nome_hospital
-
+```
 ### 📍 dim_local
 Permite análises relacionadas à localização:
-
+```text
 id_local
 nome_local
 cidade
 estado
-
+```
 ### 📅 dim_data_atendimento
 Permite análises temporais:
-
+```text
 id_data_atendimento
 dataa
 mes
@@ -117,15 +117,15 @@ ano
 dia_semana
 inicio
 fim
-
+```
 ### 🕐 dim_periodo_horario
 Permite analisar os atendimentos de acordo com o período do dia:
-
+```text
 id_periodo
 periodo
 hora_inicio
 hora_fim
-
+```
 A dimensão de período também foi utilizada nas análises para identificar a concentração dos atendimentos ao longo do dia.
 
 ## 🔗 4. Relacionamento entre as tabelas
@@ -135,18 +135,18 @@ As dimensões são relacionadas à tabela fato por meio de chaves primárias (PK
 Os relacionamentos possuem cardinalidade 1:N, pois um registro de uma dimensão pode estar relacionado a vários registros na tabela fato.
 
 Exemplos:
-
+```text
 1 voluntário → N atendimentos
 1 hospital → N atendimentos
 1 atividade → N atendimentos
 1 local → N atendimentos
 1 data → N atendimentos
 1 período → N atendimentos
-
+```
 ## 🗄️ 5. Implementação no Databricks
 
 A implementação foi realizada no Databricks, seguindo as etapas:
-
+```text
 Criação do database;
 Criação das tabelas dimensão;
 Criação da tabela fato;
@@ -154,7 +154,7 @@ Inserção dos dados;
 Realização das consultas SQL;
 Análise dos resultados;
 Geração dos insights.
-
+```
 As tabelas foram criadas utilizando o formato Delta, por meio do comando:
 
 USING DELTA;
@@ -221,7 +221,7 @@ A análise permitiu identificar padrões relacionados aos voluntários, hospitai
 
 ---
 
-<<<<<<< HEAD
+
 Entretenimento foi a atividade mais realizada, demonstrando maior participação em ações voltadas ao acolhimento e ao bem-estar dos pacientes.
 
 O período da tarde concentrou a maior quantidade de atendimentos voluntários, enquanto o período noturno apresentou menor participação.
